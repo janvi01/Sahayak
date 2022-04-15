@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  background-color: #151634;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home {
+  background-color: #2d3649;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.homemain {
+  width: "100%";
+  height: 100vh;
+  background: #3c3b3f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #605c3c,
+    #3c3b3f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #605c3c,
+    #3c3b3f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
 }
+.main {
+  width: "100%";
+  background: #3c3b3f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #605c3c,
+    #3c3b3f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #605c3c,
+    #3c3b3f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-.App-link {
-  color: #61dafb;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.common {
+  height: 200vh;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  background-color: #2d3649;
+}
+.temp {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  background-color: #2d3649;
+}
+.link {
+  color: yellow;
+}
+.link--active {
+  border-bottom: 3px solid #29b6f6;
+  transition: border-bottom 0.5s ease-in-out;
+}
+.sbox {
+  border-radius: 10px;
+  background-color: white;
+}
+.sbox:hover {
+  transform: scale(1.1);
+}
+.helpercard {
+  background-color: #2d3649;
 }
